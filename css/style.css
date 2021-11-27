@@ -1,0 +1,523 @@
+/*header-ის გასტილვა*/
+.header-div{
+	display: flex;
+	width: 100%;
+	height: 55px;
+	padding-top: 30px;
+	left: 0px;
+	/*position: fixed;*/
+}
+.child-div1{
+	padding-left: 110px;
+	display: flex;
+	width: 195px;
+	height: 39px;
+	vertical-align: bottom;
+}
+.child-div2{
+	display: flex;
+ 	justify-content: space-between;
+	text-transform: uppercase;
+	margin-left:450px;
+	width: 450px;
+	height: 24px;
+  	color: #3D37F1;
+  	font-family: 'Lato';
+  	font-size: 15px;
+  	vertical-align: bottom;
+}
+.web{
+	/*vertical-align: bottom;*/
+	color: #3D37F1;
+	font-family: 'Lato';
+	font-size: 26px;
+	font-weight: bold;
+	top: 20px;
+}
+.uiexpert{
+	/*vertical-align: bottom;*/
+	color: #4B647E;
+	font-family: 'Lato';
+	font-weight: light;
+}
+/*header-ის გასტილვა დასრულდა*/
+.big-one-div1{
+	display: flex;
+	margin-bottom: 100px;
+}
+.main-text{
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 50px;
+	width:400px;
+	height: 120px;
+	margin-top: 185px;
+	padding-left: 110px;
+}
+.active{
+	color: #000000;
+}
+.subtext{
+	width: 400px;
+	height: 40px;
+	padding-left: 110px;
+	font-family: 'Lato';
+	font-size: 14px;
+}
+.main-image{
+	width: 500px;
+	margin-left: 267px;
+	margin-top: 127px;
+}
+/*ღილაკი*/
+.wave-me-button{
+	background: #3D37F1;
+	margin-left: 110px;
+	width: 200px;
+	height: 50px;
+	position: relative;
+	border-radius: 25px;
+	border: 1px solid #ECE3E3;
+}
+.waving-hand{
+	position: absolute;
+	left: 35px;
+	top: 10px;
+	color:#3D37F1 ;
+}
+.wave-me{
+	font-family: 'Lato';
+	font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+	position: absolute;
+	left: 100px;
+	top: 15px;
+	color: #FFFFFF;
+}
+.wave-me-button:hover{
+	background: #FFFFFF;
+}
+.wave-me-button:hover .wave-me{
+	color: #3D37F1;
+	font-size: 24px;
+	left: 50px;
+	top: 12px;
+} 
+/*ღილაკის გასტილვა დასრულდა*/
+/*მეორე მთავარი ბლოკის გასტილვა*/
+.big-one-div2{
+	width: 100%;
+	height: 1000px;
+	margin-top: 100px;
+}
+/*მთავარი ბლოკის სათაურების გასტილვა*/
+.head-2-div{
+	width: 140px;
+	height: 30px;
+	margin: 0 auto;
+}
+.head-2{
+	font-family: 'Lato';
+	font-weight: bold;
+    font-style: normal;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #3D37F1;
+}
+.head-3-div{
+	width: 420px;
+	height: 48px;
+	margin: 0 auto;
+}
+.head-3{
+	font-family: 'Lato';
+	font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+.head-4-div{
+	width: 550px;
+	height: 80px;
+	margin: 0 auto;
+}
+.head-4{
+	font-family: 'Lato';
+	font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+	text-transform: lowercase;
+	text-align: center;
+}
+/*მთავარი ბლოკის სათაურების გასტილვა დასრულდა*/
+/*პირველი child ყუთის გასტილვა*/
+.child-div-big-one{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 850px;
+	width: 1020px;
+	margin: 0 auto;
+}
+.second-div-1-box{
+	width: 315px;
+	height: 400px;
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+	position: relative;
+}
+.childbox-image1{
+	margin-top: 80px;
+	margin-left: 110px;
+}
+.childbox1-text1{
+	font-family: 'Lato';
+	font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    width: 90px;
+    height: 20px;
+    padding-left: 120px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+.childbox1-text2-div{
+	width: 250px;
+	height: 50px;
+	padding-left: 35px;
+	margin-top: 10px;
+}
+.childbox1-text2{
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.childbox-button1{
+	width: 110px;
+	height: 35px;
+	margin: 0 auto;
+	background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+	border: 1px solid #FFFFFF;
+	border-radius: 17.5px;
+}
+.childbox-button1:hover{
+	background: #FFFFFF;
+}
+.childbox-button1-text{
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 12px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+.childbox-button1:hover .childbox-button1-text{
+	color: #4B647E;
+}
+/*პირველი child ყუთის გასტილვა დასრულდა*/
+/*მეორე child ყუთის გასტილვა*/
+.second-div-2-box{
+	width: 315px;
+	height: 400px;
+	/*padding-left: 340px;*/
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	position: relative;
+}
+.childbox-image2{
+	margin-top: 80px;
+	margin-left: 110px;
+}
+.childbox2-text1{
+	font-family: 'Lato';
+	font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    width: 90px;
+    height: 20px;
+    padding-left: 125px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+.childbox2-text2-div{
+	width: 250px;
+	height: 50px;
+	padding-left: 35px;
+	margin-top: 10px;
+}
+.childbox2-text2{
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.childbox-button2{
+	width: 110px;
+	height: 35px;
+	margin: 0 auto;
+	background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); 
+	border: 1px solid #FFFFFF;
+	border-radius: 17.5px;
+}
+.childbox-button2:hover{
+	background: #FFFFFF;
+}
+.childbox-button2-text{
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 12px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+.childbox-button2:hover .childbox-button2-text{
+	color: #4B647E;
+}
+/*მეორე child ყუთის გასტილვა დასრულდა*/
+/*მესამე child ყუთის გასტილვა*/
+.second-div-3-box{
+	width: 315px;
+	height: 400px;
+	/*padding-left: 340px;*/
+	background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+	position: relative;
+}
+.childbox-image3{
+	margin-top: 80px;
+	margin-left: 110px;
+}
+.childbox3-text1{
+	font-family: 'Lato';
+	font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    width: 90px;
+    height: 20px;
+    padding-left: 115px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+.childbox3-text2-div{
+	width: 250px;
+	height: 50px;
+	padding-left: 35px;
+	margin-top: 10px;
+}
+.childbox3-text2{
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.childbox-button3{
+	width: 110px;
+	height: 35px;
+	margin: 0 auto;
+	background: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%); 
+	border: 1px solid #FFFFFF;
+	border-radius: 17.5px;
+}
+.childbox-button3:hover{
+	background: #FFFFFF;
+}
+.childbox-button3-text{
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 12px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+.childbox-button3:hover .childbox-button3-text{
+	color: #4B647E;
+}
+/*მესამე child ბლოკის გასტილვა დასრულდა*/
+/*მეოთხე child ბლოკის გასტილვა*/
+.second-div-4-box{
+	width: 315px;
+	height: 400px;
+	/*padding-left: 340px;*/
+	background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+	position: relative;
+}
+.childbox-image4{
+	margin-top: 80px;
+	margin-left: 110px;
+}
+.childbox4-text1{
+	font-family: 'Lato';
+	font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    width: 90px;
+    height: 20px;
+    padding-left: 110px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+.childbox4-text2-div{
+	width: 250px;
+	height: 50px;
+	padding-left: 35px;
+	margin-top: 10px;
+}
+.childbox4-text2{
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.childbox-button4{
+	width: 110px;
+	height: 35px;
+	margin: 0 auto;
+	background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+	border: 1px solid #FFFFFF;
+	border-radius: 17.5px;
+}
+.childbox-button4:hover{
+	background: #FFFFFF;
+}
+.childbox-button4-text{
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 12px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+.childbox-button4:hover .childbox-button4-text{
+	color: #4B647E;
+}
+/*მეოთხე ბლოკის გასტილვა დასრულდა*/
+/*მეხუთე ბლოკის გასტილვა*/
+.second-div-5-box{
+	width: 315px;
+	height: 400px;
+	/*padding-left: 340px;*/
+	background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+	position: relative;
+}
+.childbox-image5{
+	margin-top: 80px;
+	margin-left: 110px;
+}
+.childbox5-text1{
+	font-family: 'Lato';
+	font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    width: 90px;
+    height: 20px;
+    padding-left: 110px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+.childbox5-text2-div{
+	width: 250px;
+	height: 50px;
+	padding-left: 35px;
+	margin-top: 10px;
+}
+.childbox5-text2{
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.childbox-button5{
+	width: 110px;
+	height: 35px;
+	margin: 0 auto;
+	background: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+	border: 1px solid #FFFFFF;
+	border-radius: 17.5px;
+}
+.childbox-button5:hover{
+	background: #FFFFFF;
+}
+.childbox-button5-text{
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 12px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+.childbox-button5:hover .childbox-button5-text{
+	color: #4B647E;
+}
+/*მეხუთე ბლოკის გასტილვა დასრულდა*/
+/*მეექვსე ბლოკის გასტილვა*/
+.second-div-6-box{
+	width: 315px;
+	height: 400px;
+	/*padding-left: 340px;*/
+	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	position: relative;
+}
+.childbox-image6{
+	margin-top: 80px;
+	margin-left: 110px;
+}
+.childbox6-text1{
+	font-family: 'Lato';
+	font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    width: 90px;
+    height: 20px;
+    padding-left: 110px;
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+.childbox6-text2-div{
+	width: 250px;
+	height: 50px;
+	padding-left: 35px;
+	margin-top: 10px;
+}
+.childbox6-text2{
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.childbox-button6{
+	width: 110px;
+	height: 35px;
+	margin: 0 auto;
+	background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	border: 1px solid #FFFFFF;
+	border-radius: 17.5px;
+}
+.childbox-button6:hover{
+	background: #FFFFFF;
+}
+.childbox-button6-text{
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 12px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+.childbox-button6:hover .childbox-button6-text{
+	color: #4B647E;
+}

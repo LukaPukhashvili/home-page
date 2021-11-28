@@ -1,2 +1,2 @@
-# home-page
+# lesson 7
  lesson 7
